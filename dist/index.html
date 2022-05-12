@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Strudel Wags PoC</title>
+		<script type="module">
+			import { poc, mini } from "./index.js";
+      window.poc = poc;
+      window.mini = mini;
+		</script>
+	</head>
+	<body>
+		<h1>Strudel Wags PoC</h1>
+		<p>
+			From the developers console, you can instantiate a new poc context by
+			running <code>var myCtx = poc()</code>. Then, the API is as follows:
+		</p>
+		<ul>
+			<li><code>myCtx.start()</code> : start the engine.</li>
+			<li><code>myCtx.stop()</code> : stop the engine.</li>
+			<li>
+				<code>myCtx.clen(3.1416)</code> : change the cycle length to 3.1416.
+				Note that, to take effect, this must be followed by
+			</li>
+			<li>
+				<code>myCtx.pat(mini("60 [62 64]"))</code> : change the pattern. Anything
+				that's not an integer will default to some random note.
+			</li>
+		</ul>
+		<p>Have fun!</p>
+	</body>
+</html>

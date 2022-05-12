@@ -1,0 +1,21 @@
+{
+	"name": "strudel-poc",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx spago bundle-module --main StrudelPoC --to dist/index.js"
+	},
+	"keywords": [],
+	"author": "Mike Solomon",
+	"license": "ISC",
+	"dependencies": {
+		"@strudel.cycles/mini": "^0.0.7"
+	},
+	"devDependencies": {
+		"esbuild": "^0.14.39",
+		"purescript": "^0.15.0",
+		"purs-tidy": "^0.8.0",
+		"spago": "^0.20.9"
+	}
+}
