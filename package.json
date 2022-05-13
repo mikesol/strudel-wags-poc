@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "npx spago bundle-module --main StrudelPoC --to dist/index.js"
+		"build": "npx spago bundle-module --main StrudelPoc --to dist/index.js"
 	},
 	"keywords": [],
 	"author": "Mike Solomon",
