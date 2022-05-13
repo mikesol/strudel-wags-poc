@@ -7,7 +7,7 @@ Using wags as a strudel backend
 ```bash
 npm install
 npm run build
-python -m http.server
+cd dist && python -m http.server
 ```
 
 And then navigate to `localhost:8000` and follow the page instructions.
