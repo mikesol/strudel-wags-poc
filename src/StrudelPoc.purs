@@ -92,7 +92,8 @@ graph e =
                               [ sawtoothOsc (midi2cps x.pitch) (bang (P.onOff x.time)) ]
                           )
                       )
-                        <|> (delay 2000 (bang silence)))
+                        -- <|> (delay 2000 (bang silence))
+                        )
                   )
                   e
               )
